@@ -1,0 +1,15 @@
+* text=auto
+
+# Keep C/C++ sources as LF in the repo (Windows checkout may still be CRLF)
+*.c    text
+*.h    text
+*.cpp  text
+*.ino  text
+*.md   text
+*.csv  text
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.ttf  binary

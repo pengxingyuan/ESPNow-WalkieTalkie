@@ -1,0 +1,24 @@
+# Build outputs
+build/
+sdkconfig.old
+sdkconfig.ci
+
+# Editor / IDE
+.vscode/
+.devcontainer/
+.clangd
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# Firmware binaries (keep them out of git; attach to Releases instead)
+*.bin
+*.elf
+*.map
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini

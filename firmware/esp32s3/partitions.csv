@@ -1,0 +1,7 @@
+# 2.8" ESP32-S3 board (16MB flash)
+# Layout: nvs 24KB, phy 4KB, factory app 3MB at 0x10000
+# (app currently ~1.2MB: LVGL + WiFi/ESP-NOW + audio/voice)
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,     0x9000,   0x6000,
+phy_init, data, phy,     0xf000,   0x1000,
+factory,  app,  factory, 0x10000,  0x300000,
